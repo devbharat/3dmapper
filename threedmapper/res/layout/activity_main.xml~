@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <EditText
+	android:id="@+id/pathImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="/sdcard/Notes/dataset/dataset3/" />
+    <Button android:id="@+id/changeImagePath"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Edit Image Filepath" />
+    <EditText
+	android:id="@+id/pathPose"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="/sdcard/Notes/" />
+    <Button android:id="@+id/changePosePath"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Edit Pose Filepath " />
+    <EditText
+	android:id="@+id/startImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="280" />
+    <Button android:id="@+id/changeStartImage"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Edit Start Image " />
+    <EditText
+	android:id="@+id/stopImage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="380" />
+    <Button android:id="@+id/changeStoptImage"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Edit Stop Image " />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_send"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Execute"/>
+</LinearLayout>
+
+</RelativeLayout>

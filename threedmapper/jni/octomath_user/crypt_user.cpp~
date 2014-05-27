@@ -1,0 +1,10 @@
+#include <jni.h>
+//#include <Pose6D.h>
+
+extern "C" {
+jlong Java_pl_morgwai_ndktutorial_Native_fun
+    (JNIEnv* env, jobject o, jint i) {
+  long long t = i;
+  return t;
+}
+}
